@@ -1,0 +1,110 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #27345f, #2b1e3b);
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background: linear-gradient(to right, #255183 0%, #369eff 50%, #0cbbb2 100%);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+
+main {
+  padding: 20px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #ff758c;
+  background-image: linear-gradient(45deg, #f33252 0%, #ee5a5a 100%);
+  color: white;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #9b9999;
+}
+
+
+.styled-form {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.styled-form label {
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.styled-form select, .styled-form input[type="submit"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.styled-form input[type="submit"] {
+  background-color: #6e8efb;
+  color: white;
+  cursor: pointer;
+}
+
+.styled-form input[type="submit"]:hover {
+  background-color: #5a7bdb;
+}
+
+
+footer {
+  background: #ff7eb3;
+  background: linear-gradient(to right, #255183 0%, #369eff 100%);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
