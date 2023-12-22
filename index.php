@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BDD AFPA</title>
     <link rel="shortcut icon" href="/assets/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="yeux.css">
+    <link rel="stylesheet" href="coloursAndStyle.css">
     
 </head>
 
