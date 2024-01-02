@@ -2,6 +2,9 @@
 
 require_once('./constants_1.php');
 
+/**
+ * Represents a singleton database connection class.
+ */
 class Database {
     private static $instance = null;
     private $connection;
@@ -12,6 +15,9 @@ class Database {
         $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
+    /**
+     * @return Database|null
+     */
     public static function getInstance() {
         if (!self::$instance) {
         self::$instance = new Database();
@@ -19,6 +25,9 @@ class Database {
     return self::$instance;
 }
 
+    /**
+     * @return PDO
+     */
     public function getConnection() {
         return $this->connection;
     }
