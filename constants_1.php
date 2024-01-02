@@ -1,4 +1,6 @@
 <?php
+
+
 const HOST = "127.0.0.1";
 const PORT = "3307";
 const DB_NAME = "afpa";
@@ -16,6 +18,23 @@ const FONCTION_TABLE_NAME = 'Fonction';
 const INTERVENTION_TABLE_NAME = 'Intervention';
 const PROJET_TABLE_NAME = 'Projet';
 
+/**
+ * Represents the names of database tables.
+ *
+ * @var array DB_TABLE_NAMES An array containing the names of various database tables.
+ *     The table names are stored as constant values, which are defined elsewhere in the codebase.
+ *
+ * @see ACTIVITE_TABLE_NAME
+ * @see CLIENT_TABLE_NAME
+ * @see COLLABORATEUR_TABLE_NAME
+ * @see CONTACT_TABLE_NAME
+ * @see CONTRAT_TABLE_NAME
+ * @see DOCUMENT_TABLE_NAME
+ * @see ETAPE_TABLE_NAME
+ * @see FONCTION_TABLE_NAME
+ * @see INTERVENTION_TABLE_NAME
+ * @see PROJET_TABLE_NAME
+ */
 const DB_TABLE_NAMES = [
   ACTIVITE_TABLE_NAME,
   CLIENT_TABLE_NAME,
@@ -32,6 +51,17 @@ const DB_TABLE_NAMES = [
 const ACTIVITE_ID_ACTIVITE_DBFIELD = 'id_activite';
 const ACTIVITE_LIBELLE_ACTIVITE_DBFIELD = 'libelle_activite';
 
+/**
+ * This constant represents the fields' names of the 'activite' table in the database.
+ * It includes the field names used in the codebase.
+ * Fields of other tables are all based on the same principle.
+ *
+ * The fields' names are:
+ * - ACTIVITE_ID_ACTIVITE_DBFIELD: Represents the field name of the 'id_activite' column.
+ * - ACTIVITE_LIBELLE_ACTIVITE_DBFIELD: Represents the field name of the 'libelle_activite' column.
+ *
+ * @var string[]
+ */
 const ACTIVITE_FIELDS_NAME = [
   ACTIVITE_ID_ACTIVITE_DBFIELD,
   ACTIVITE_LIBELLE_ACTIVITE_DBFIELD
